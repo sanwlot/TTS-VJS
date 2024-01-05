@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+#text-input {
+  width: 100%;
+  border-radius: 7px;
+  padding: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  min-width: 200px;
+}
+
+.form-group {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pitch,
+#rate {
+  flex: 2;
+  margin: 0 10px;
+}
+
+form button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#voice-select {
+  padding: 7px;
+  border-radius: 7px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+#stop-btn {
+  border: none;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 09px 10px;
+  color: white;
+}
